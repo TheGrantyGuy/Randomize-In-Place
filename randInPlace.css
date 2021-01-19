@@ -1,0 +1,42 @@
+.firstSection{
+    outline: 1px solid blue;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+}
+
+.text{
+    float: left; 
+    text-align: center; 
+    width: 100%; 
+    margin-top: .5em ;
+    font-size: 1.5em ;
+}
+
+
+.slot{
+    float: left;
+	width: 3em ;
+	height: 3em ;
+	background: #999;
+}
+
+.pseudocode{
+    outline: 1px solid blue;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+body{
+    margin: 2.5em auto 5em 5% ;
+    width: 90%;
+    font-family: Georgia, serif;
+}
+h1{
+    font-size: 40pt;
+}
+
+.code{
+    font-size: 20pt;
+}
