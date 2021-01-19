@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Randomize-In-Place Algorithm</title>
+  <h1>Randomize-In-Place Algorithm</h1>
+  <link href="randInPlace.css" rel="stylesheet">
+  <script src="randInPlace.js"></script>
+</head>
+<body onload="setArray();">
+
+  <!--Section to demonstrate the algorithm on an array-->
+  <div class = firstSection>
+  <div class="array">
+    <div class="slot" id="a0">
+      <div class="text" id=0></div>
+    </div>
+    <div class="slot" id="a1">
+      <div class="text" id=1></div>
+    </div>
+    <div class="slot" id="a2">
+      <div class="text" id=2></div>
+    </div>
+    <div class="slot" id="a3">
+      <div class="text" id=3></div>
+    </div>
+    <div class="slot" id="a4">
+      <div class="text" id=4></div>
+    </div>
+    <div class="slot" id="a5">
+      <div class="text" id=5></div>
+    </div>
+    <div class="slot" id="a6">
+      <div class="text" id=6></div>
+    </div>
+    <div class="slot" id="a7">
+      <div class="text" id=7></div>
+    </div>
+    <div class="slot" id="a8">
+      <div class="text" id=8></div>
+    </div>
+    <div class="slot" id="a9">
+      <div class="text" id=9></div>
+    </div>
+    <div class="slot" id="a10">
+      <div class="text" id=10></div>
+    </div>
+    <div class="slot" id="a11">
+      <div class="text" id=11></div>
+    </div>
+    <div class="slot" id="a12">
+      <div class="text" id=12></div>
+    </div>
+    <div class="slot" id="a13">
+      <div class="text" id=13></div>
+    </div>
+    <div class="slot" id="a14">
+      <div class="text" id=14></div>
+    </div>
+    <div class="slot" id="a15">
+      <div class="text" id=15></div>
+    </div>
+  </div>
+</div>
+
+  <div style="clear: left;"></div>
+  
+  <div class="pseudocode">
+    <br>
+    <div class="code" id="cPseu">
+      <b>PSEUDOCODE FOR RANDOMIZE-IN-PLACE</b>
+      <br>
+      Goal: Randomize a sorted array in-place
+      <br>
+      Randomize-In-Place(A)
+      <br>
+      &nbsp; n = A.length
+      <br>
+      &nbsp; for(<span id="b1">i = 0</span>; i < n; <span id="b2">i++</span>)
+      <br>
+      &nbsp;&nbsp;&nbsp;<span id="b3">swap <span id="b4">A[i]</span> with <span id="b5">A[RANDOM(i, n)]</span>
+        </span>
+      <br>
+    </div>
+  </div> 
+
+  <table>
+    <tr>
+    <td style="border: solid red 2px; background: #eef;"
+    onclick="setArray()">&nbsp;Restart&nbsp;
+    <td style="border: solid red 2px; background: #fee;"
+    onclick="algorithm()">&nbsp;Step&nbsp;
+    </table>
+    
+</body>
+</html>
